@@ -19,15 +19,13 @@ plt.xticks(np.arange(0, 20, 1))
 plt.barh(a_1,b_1,height=0.5)
 plt.show()
 
-#------------------------------------------------------------------------------------------#
 import matplotlib.pyplot as plt
 import numpy as np
 
 y = np.array(b_1)
 
 plt.pie(x=y,
-        labels=['S','M','L',"XL","2XL","3XL","4XL","5XL"], # 设置饼图标签
-        #colors=["#FFFF00", "#00FF00", "#0000FF", "#FF0000","#00FFFF","#FF00FF","#F0F0F0","#0F0F0F"], # 设置饼图颜色
+        labels=['S','M','L',"XL","2XL","3XL","4XL","5XL"],
         autopct='%.2f%%'
        )
 plt.title("男") # 设置标题
@@ -74,8 +72,7 @@ import numpy as np
 y = np.array(b_1)
 
 plt.pie(x=y,
-        labels=['S','M','L',"XL","2XL","3XL","4XL","5XL"], # 设置饼图标签
-        #colors=["#FFFF00", "#00FF00", "#0000FF", "#FF0000","#00FFFF","#FF00FF","#F0F0F0","#0F0F0F"], # 设置饼图颜色
+        labels=['S','M','L',"XL","2XL","3XL","4XL","5XL"], 
         autopct='%.2f%%'
        )
 plt.title("女") # 设置标题
